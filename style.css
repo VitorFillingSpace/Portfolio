@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); 
+/*fontes corpo e header*/
+* {
+    box-sizing: border-box;
+    margin: 0%; /*config básica*/
+    padding: 0%;
+}
+
+header { /*estlização do header*/
+    display: flex; /*configuração para alinhar o conteúdo lado a lado*/
+    flex-direction: row;
+    justify-content: space-between; /*espaçamento polarizado*/
+    background-color: rgba(8, 54, 30, 0.877);
+    color: white;
+    font-family: "Playfair Display", serif; /*fonte importada*/
+    padding: 15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center; /*alinhamento de itens na vertical*/
+}
+nav a{
+    text-decoration: none; /*tira a linha dos links*/
+    color: aliceblue; /*altera a cor*/
+    background-color: rgba(4, 31, 17, 0.877);
+    padding: 5px;
+    margin: 0px 8px;
+}
+body {
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+#inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+#inicio img{
+    width: 50%; /*altera o tamanho da imagem*/
+}
+#perfil {
+ margin: auto; /*salvador da minha vida*/
+}
+#habilidades{
+    margin: 40px 0px; /*tecnica usada para unir top/bottom e left/right*/
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card img {
+    width: 50%
+}
+
+.bloco {
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    padding: 20px; /*espaçamento interno*/
+    border-radius: 15px; /*borda do conteúdo*/
+    width: 300px;
+    align-items: center;
+    margin: auto;
+}
+.subtitulo{
+    background-color: rgb(24, 24, 24);
+    border-radius: 40px;
+    width: 300px;
+    padding: 20px; /*estlização espeífica de titulos*/
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.tabela{
+display: flex;
+justify-content: center;
+gap: 70px; /*espaçamento para elementos filhos*/
+
+}
+.conteudo{
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    padding: 20px;
+    border-radius: 15px; /*estilização de lista de hard/soft skills*/
+    width: 300px;
+    align-items: center;
+
+}
+.conteudo img{
+    width: 100%;
+}
+.ferramentas img{ /*altera o tamanho das imagens usadas em ferramentas*/
+    width: 10%;
+    }
+    #html{ /*gambiarra pura, confesso*/
+        width: 10%;
+    }
+#projetos h2{ /*espaçamento do titulo*/
+ text-align: center;
+
+}
+#projetos{ /*usei pra aumentar a margin manualmente*/
+    margin: 40px 0px;
+}
+#contatos{ /*usei pra aumentar a margin manualmente*/
+    margin: 80px 0px;
+    text-align: center;
+}
+#contatos h2{ /*usei pra aumentar a margin manualmente*/
+    margin-bottom: 40px;
+}
+.contato { /*espaçamento de blocos de contato*/
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+.contato img { /*altera o tamanho. não consegui alterar adequadamente*/
+    width: 40%;
+}
+
+footer {
+    background-color: rgba(8, 54, 30, 0.877);
+    padding: 15px; /*estilização do footer*/
+    text-align: end;
+}
+#final{ /*espaçamento de blocos de contato*/
+    display: flex;
+    justify-content: space-around;
+}
+#final a{
+color: aliceblue;
+text-decoration: none; /*usado para tirar efeitos e aparência de links*/
+text-align: center;
+}
